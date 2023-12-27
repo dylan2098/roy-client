@@ -1,0 +1,90 @@
+{
+    "NAME": "PRICEBOOK",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "NAME",
+        "CURRENCY_CODE",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_PRICEBOOK",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "CURRENCY_CODE_INPUT",
+                "type": "text",
+                "name": "currencyCode",
+                "options": {
+                    "required": true,
+                    "min": 3
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "DESCRIPTION_INPUT",
+                "type": "description",
+                "name": "name"
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_PRICEBOOK",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "CURRENCY_CODE_INPUT",
+                "type": "text",
+                "name": "currencyCode",
+                "options": {
+                    "required": true,
+                    "min": 3
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "DESCRIPTION_INPUT",
+                "type": "text",
+                "name": "description"
+            }
+        ]
+    }
+}

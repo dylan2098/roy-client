@@ -1,0 +1,352 @@
+{
+    "NAME": "PRODUCT",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "IMAGE",
+        "SKU",
+        "NAME",
+        "CATEGORY",
+        "TYPE",
+        "BRAND",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_PRODUCT",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "productName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "SKU_INPUT",
+                "type": "text",
+                "name": "productSKU",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "BRAND_INPUT",
+                "type": "text",
+                "name": "productBrand",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "CATEGORY_INPUT",
+                "type": "select",
+                "name": "categoryId"
+            },
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_MASTER_INPUT",
+                "type": "select",
+                "name": "productMaster",
+                "multiple": false
+            },
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_VARIANT_INPUT",
+                "type": "select",
+                "name": "productVariants",
+                "multiple": true
+            },
+            {
+                "icons": "",
+                "placeholder": "ATTRIBUTE_INPUT",
+                "type": "selectAttribute",
+                "name": "attributeProduct",
+                "value": [
+                    {
+                        "name": "productColor",
+                        "placeholder": "COLOR_INPUT"
+                    },
+                    {
+                        "name": "productSize",
+                        "placeholder": "SIZE_INPUT"
+                    },
+                    {
+                        "name": "productDepth",
+                        "placeholder": "DEPTH_INPUT"
+                    },
+                    {
+                        "name": "productHeight",
+                        "placeholder": "HEIGHT_INPUT"
+                    },
+                    {
+                        "name": "productWeight",
+                        "placeholder": "WEIGHT_INPUT"
+                    },
+                    {
+                        "name": "productWidth",
+                        "placeholder": "WIDHT_INPUT"
+                    },
+                    {
+                        "name": "productLength",
+                        "placeholder": "LENGTH_INPUT"
+                    },
+                    {
+                        "name": "productAge",
+                        "placeholder": "AGE_INPUT"
+                    },
+                    {
+                        "name": "productAdditionalAttributes",
+                        "placeholder": "ADDITIONAL_ATTRIBUTE_INPUT"
+                    }
+                ]
+            },
+            {
+                "icons": "",
+                "placeholder": "UNIT_INPUT",
+                "type": "text",
+                "name": "productUnit",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "MANU_FACTURER_NAME_INPUT",
+                "type": "text",
+                "name": "productManuFacturerName"
+            },
+            {
+                "icons": "",
+                "placeholder": "MIN_ORDER_QUANTITY_INPUT",
+                "type": "number",
+                "name": "productMinOrderQuantity"
+            },
+            {
+                "icons": "",
+                "placeholder": "SHORT_DESCRIPTION_INPUT",
+                "type": "textarea",
+                "name": "productShortDescription"
+            },
+            {
+                "icons": "",
+                "placeholder": "LONG_DESCRIPTION_INPUT",
+                "type": "textarea",
+                "name": "productLongDescription"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_SEARCH_AVAILABLE_INPUT",
+                "type": "checkbox",
+                "name": "productSearchableIfUnavailable"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_PRICE_INPUT",
+                "type": "checkbox",
+                "name": "productStoreForcePriceEnabled"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_USE_DISCOUNT_INPUT",
+                "type": "checkbox",
+                "name": "productStoreNonDiscountableEnabled"
+            },
+            {
+                "icons": "",
+                "placeholder": "UPLOAD_SINGLE_FILE_INPUT",
+                "type": "file",
+                "name": "productImage"
+            },
+            {
+                "icons": "",
+                "placeholder": "UPLOAD_MULTIPLE_FILES_INPUT",
+                "type": "files",
+                "name": "productImages"
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_PRODUCT",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "productId",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "productName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "SKU_INPUT",
+                "type": "text",
+                "name": "productSKU",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "BRAND_INPUT",
+                "type": "text",
+                "name": "productBrand",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "CATEGORY_INPUT",
+                "type": "select",
+                "name": "categoryId"
+            },
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_MASTER_INPUT",
+                "type": "select",
+                "name": "productMaster",
+                "multiple": false
+            },
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_VARIANT_INPUT",
+                "type": "select",
+                "name": "productVariants",
+                "multiple": true
+            },
+            {
+                "icons": "",
+                "placeholder": "ATTRIBUTE_INPUT",
+                "type": "selectAttribute",
+                "name": "attributeProduct",
+                "value": [
+                    {
+                        "name": "productColor",
+                        "placeholder": "COLOR_INPUT"
+                    },
+                    {
+                        "name": "productSize",
+                        "placeholder": "SIZE_INPUT"
+                    },
+                    {
+                        "name": "productDepth",
+                        "placeholder": "DEPTH_INPUT"
+                    },
+                    {
+                        "name": "productHeight",
+                        "placeholder": "HEIGHT_INPUT"
+                    },
+                    {
+                        "name": "productWeight",
+                        "placeholder": "WEIGHT_INPUT"
+                    },
+                    {
+                        "name": "productWidth",
+                        "placeholder": "WIDHT_INPUT"
+                    },
+                    {
+                        "name": "productLength",
+                        "placeholder": "LENGTH_INPUT"
+                    },
+                    {
+                        "name": "productAge",
+                        "placeholder": "AGE_INPUT"
+                    },
+                    {
+                        "name": "productAdditionalAttributes",
+                        "placeholder": "ADDITIONAL_ATTRIBUTE_INPUT"
+                    }
+                ]
+            },
+            {
+                "icons": "",
+                "placeholder": "UNIT_INPUT",
+                "type": "text",
+                "name": "productUnit",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "MANU_FACTURER_NAME_INPUT",
+                "type": "text",
+                "name": "productManuFacturerName"
+            },
+            {
+                "icons": "",
+                "placeholder": "MIN_ORDER_QUANTITY_INPUT",
+                "type": "number",
+                "name": "productMinOrderQuantity"
+            },
+            {
+                "icons": "",
+                "placeholder": "SHORT_DESCRIPTION_INPUT",
+                "type": "textarea",
+                "name": "productShortDescription"
+            },
+            {
+                "icons": "",
+                "placeholder": "LONG_DESCRIPTION_INPUT",
+                "type": "textarea",
+                "name": "productLongDescription"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_SEARCH_AVAILABLE_INPUT",
+                "type": "checkbox",
+                "name": "productSearchableIfUnavailable"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_PRICE_INPUT",
+                "type": "checkbox",
+                "name": "productStoreForcePriceEnabled"
+            },
+            {
+                "icons": "",
+                "placeholder": "ENABLE_USE_DISCOUNT_INPUT",
+                "type": "checkbox",
+                "name": "productStoreNonDiscountableEnabled"
+            },
+            {
+                "icons": "",
+                "placeholder": "UPLOAD_SINGLE_FILE_INPUT",
+                "type": "file",
+                "name": "productImage"
+            },
+            {
+                "icons": "",
+                "placeholder": "UPLOAD_MULTIPLE_FILES_INPUT",
+                "type": "files",
+                "name": "productImages"
+            }
+        ]
+    }
+}

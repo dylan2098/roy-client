@@ -1,0 +1,77 @@
+{
+    "NAME": "SYSTEM_CONFIG",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "NAME",
+        "KEY",
+        "VALUE",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_CONFIG",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "KEY_INPUT",
+                "type": "text",
+                "name": "key",
+                "options": {
+                    "required": true
+                }
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_CONFIG",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "KEY_INPUT",
+                "type": "text",
+                "name": "key",
+                "options": {
+                    "required": true
+                }
+            }
+        ]
+    }
+}

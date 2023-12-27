@@ -1,0 +1,71 @@
+{
+    "NAME": "CATALOG",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "NAME",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_CATALOG",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "DESCRIPTION_INPUT",
+                "type": "text",
+                "name": "description",
+                "options": {}
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_CATALOG",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NAME_INPUT",
+                "type": "text",
+                "name": "name",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "DESCRIPTION_INPUT",
+                "type": "text",
+                "name": "description",
+                "options": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "NAME": "USER_SYSTEM",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        },
+        {
+            "text": "Locker",
+            "color": "warning"
+        },
+        {
+            "text": "Deleted",
+            "color": "danger"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "EMAIL",
+        "PHONE",
+        "ROLE",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_USER",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "EMAIL_INPUT",
+                "type": "email",
+                "name": "email",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "USER_NAME_INPUT",
+                "type": "text",
+                "name": "username",
+                "options": {
+                    "required": true,
+                    "min": 5
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "FIRST_NAME_INPUT",
+                "type": "text",
+                "name": "firstName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "LAST_NAME_INPUT",
+                "type": "text",
+                "name": "lastName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_INPUT",
+                "type": "text",
+                "name": "phone",
+                "options": {
+                    "required": true,
+                    "min": 10
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PASSWORD_INPUT",
+                "type": "password",
+                "name": "password",
+                "options": {
+                    "required": true,
+                    "min": 8
+                }
+            },
+            {
+                "icons": "",
+                "type": "radio",
+                "name": "role",
+                "attrOptions": [
+                    {
+                        "label": "ADMIN",
+                        "checked": true,
+                        "value": 1
+                    },
+                    {
+                        "label": "USER",
+                        "checked": false,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_USER",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "EMAIL_INPUT",
+                "type": "email",
+                "name": "email",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "USER_NAME_INPUT",
+                "type": "text",
+                "name": "username",
+                "options": {
+                    "required": true,
+                    "min": 5
+                },
+                "disabled": true
+            },
+            {
+                "icons": "",
+                "placeholder": "FIRST_NAME_INPUT",
+                "type": "text",
+                "name": "firstName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "LAST_NAME_INPUT",
+                "type": "text",
+                "name": "lastName",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_INPUT",
+                "type": "text",
+                "name": "phone",
+                "options": {
+                    "required": true,
+                    "min": 10
+                }
+            }
+        ]
+    }
+}

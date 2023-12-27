@@ -1,0 +1,199 @@
+{
+    "NAME": "STORE",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "ID",
+        "EMAIL",
+        "ADDRESS",
+        "PHONE",
+        "CITY",
+        "ZIP_CODE",
+        "STATUS"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_STORE",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ADDRESS_1_INPUT",
+                "type": "text",
+                "name": "address_1",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "ADDRESS_2_INPUT",
+                "type": "text",
+                "name": "address_2",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "CITY_INPUT",
+                "type": "text",
+                "name": "city",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "ZIP_CODE_INPUT",
+                "type": "text",
+                "name": "zipCode",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "EMAIL_INPUT",
+                "type": "text",
+                "name": "email",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_1_INPUT",
+                "type": "text",
+                "name": "phone_1",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_2_INPUT",
+                "type": "text",
+                "name": "phone_2",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "FAX_INPUT",
+                "type": "text",
+                "name": "fax",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "LATITUDE_INPUT",
+                "type": "text",
+                "name": "latitude",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "LONGITUDE_INPUT",
+                "type": "text",
+                "name": "longitude",
+                "options": {}
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_STORE",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "ADDRESS_1_INPUT",
+                "type": "text",
+                "name": "address_1",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "ADDRESS_2_INPUT",
+                "type": "text",
+                "name": "address_2",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "CITY_INPUT",
+                "type": "text",
+                "name": "city",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "ZIP_CODE_INPUT",
+                "type": "text",
+                "name": "zipCode",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "EMAIL_INPUT",
+                "type": "text",
+                "name": "email",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_1_INPUT",
+                "type": "text",
+                "name": "phone_1",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PHONE_2_INPUT",
+                "type": "text",
+                "name": "phone_2",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "FAX_INPUT",
+                "type": "text",
+                "name": "fax",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "LATITUDE_INPUT",
+                "type": "text",
+                "name": "latitude",
+                "options": {}
+            },
+            {
+                "icons": "",
+                "placeholder": "LONGITUDE_INPUT",
+                "type": "text",
+                "name": "longitude",
+                "options": {}
+            }
+        ]
+    }
+}

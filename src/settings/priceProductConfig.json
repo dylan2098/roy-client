@@ -1,0 +1,154 @@
+{
+    "NAME": "PRICE_PRODUCT",
+    "STATUS": [
+        {
+            "text": "Disabled",
+            "color": "primary"
+        },
+        {
+            "text": "Active",
+            "color": "success"
+        }
+    ],
+    "ATTRIBUTE_DISPLAY": [
+        "CURRENCY_CODE",
+        "BASE_PRICE",
+        "GROSS_PRICE",
+        "NET_PRICE"
+    ],
+    "FORM_ADD": {
+        "title": "ADD_PRICE_PRODUCT",
+        "type": "add",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_INPUT",
+                "type": "hidden",
+                "name": "productId",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PRICEBOOK_INPUT",
+                "type": "select",
+                "name": "pricebookId",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "BASE_PRICE_INPUT",
+                "type": "number",
+                "step": "any",
+                "name": "basePrice",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "GROSS_PRICE_INPUT",
+                "type": "number",
+                "name": "grossPrice",
+                "step": "any",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NET_PRICE_INPUT",
+                "type": "number",
+                "name": "netPrice",
+                "step": "any",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NOTE_INPUT",
+                "type": "text",
+                "name": "note",
+                "options": {
+                    "required": true
+                }
+            }
+        ]
+    },
+    "FORM_UPDATE": {
+        "title": "UPDATE_PRICE_PRODUCT",
+        "type": "update",
+        "inputs": [
+            {
+                "icons": "",
+                "placeholder": "ID_INPUT",
+                "type": "hidden",
+                "name": "id",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PRODUCT_INPUT",
+                "type": "hidden",
+                "name": "productId",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "PRICEBOOK_INPUT",
+                "type": "select",
+                "name": "pricebookId",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "BASE_PRICE_INPUT",
+                "type": "number",
+                "step": "any",
+                "name": "basePrice",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "GROSS_PRICE_INPUT",
+                "type": "number",
+                "name": "grossPrice",
+                "step": "any",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NET_PRICE_INPUT",
+                "type": "number",
+                "name": "netPrice",
+                "step": "any",
+                "options": {
+                    "required": true
+                }
+            },
+            {
+                "icons": "",
+                "placeholder": "NOTE_INPUT",
+                "type": "text",
+                "name": "note",
+                "options": {
+                    "required": true
+                }
+            }
+        ]
+    }
+}
